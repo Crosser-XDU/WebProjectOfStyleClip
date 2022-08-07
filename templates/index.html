@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI图片编辑</title>
+</head>
+<style>
+	    body
+		{
+			background-image: url("../static/img/weather.png");
+		}
+		ul{
+				list-style-type: none;
+				overflow: hidden;
+				height: 30%;
+			    width: 100% ;
+				background-color: rgba(255,255,255,0.5);
+		}
+		li{
+			/*display与float两种方式使列表转为横向*/
+			/* display: inline; */
+            margin-left: auto;
+            margin-right: 15%;
+			float: right;
+			display: inline;
+		}
+		li a{
+			display:block ;
+			color: black;
+			text-decoration: none;
+			text-align: center;
+			padding: 16px 16px;
+			text-align-last: justify;
+			float: right;
+			font-family: 华光楷体_CNKI;
+		}
+        li a:hover{
+				color: white;
+			}
+        .round_icon{
+            float: left;
+          width: 3.7%;
+          height: 3.7%;
+          display: flex;
+          border-radius: 50%;
+          align-items: center;
+          justify-content: center;
+          overflow: hidden;
+        }
+</style>
+<body>
+<ul>
+            <img src="../static/img/logo.jpg" class="round_icon"  alt="">
+			<li><a href="/help">帮助</a></li>
+			<li><a href="/contact">联系</a></li>
+			<li><a href="/upload">编辑</a></li>
+			<li class="right"><a href="/about" >介绍</a></li>
+</ul>
+<div style="padding-top: 10%;position: center;margin-left: auto;margin-right: auto;width: 80%">
+	<div style="float: top;text-align: center;text-align-last: justify;font-family: 华光楷体_CNKI;font-size: 65px">
+		<p>欢迎来到图片编辑网站</p>
+	</div>
+</div>
+</body>
+</html>

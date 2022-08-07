@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    body
+    {
+        background-image: url("../static/img/weather.png");
+        /*style: "background-size:100%;width:100%;overflow:auto"*/
+
+    }
+    .top-bar {
+    width: 100%;
+    height: 12%;
+    margin: 0;
+    display: flex;
+    }
+    .box-top {
+        width: 100%;
+        /*min-width: 1350px;*/
+        background-color: rgba(255,255,255,0.5);
+        padding: 3px;
+        /*border-bottom-left-radius: 8px;*/
+        /*border-bottom-right-radius: 8px;*/
+    }
+    .top-ui {
+        width: 100%;
+        /*min-width: 800px;*/
+        height: 50px;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .top-ui li{
+        width:10%;
+        height: 11%;
+        /*min-width: 50px;*/
+        margin:-5px 50px 0 70px;
+        float: left;
+        text-align: center;
+        display: block;
+    }
+    .top-ui a{
+        font-family: 华光楷体_CNKI;
+        font-size: 30px;
+        text-align: center;
+        width: 20%;
+        height: 100%;
+        text-align-last: justify;
+        color: black;
+        position: relative;
+        top: 50%;
+        text-decoration: none;//下划线;
+    }
+    .top-ui a:hover{
+        color: white;
+    }
+    .top-ui img{
+        height: 40px;
+        margin: 0;
+        padding: 0;
+        display: inline;
+        position: relative;
+        top: 10%;
+    }
+    welcome
+    {
+        position: center;
+        width: 90%;
+        height: 50%;
+    }
+</style>
+<body>
+<div class="top-bar">
+    <div class="box-top">
+        <ul class="top-ui">
+            <li>
+                <a href="/"><img src="../static/img/logo.jpg" style="width: 45px;height: 45px;display: flex;border-radius: 50%;
+   align-items: center;
+   justify-content: center;
+   overflow: hidden;"></a>
+            </li>
+            <li>
+                <a href="#">介绍</a>
+            </li>
+            <li>
+                <a href="/upload">编辑</a>
+            </li>
+            <li>
+                <a href="#">致谢</a>
+            </li>
+            <li>
+                <a href=“#">帮助</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div style="width: 100%;height:auto;text-align: center">
+    <h1 style="color: #fff900;font-family: 华光楷体_CNKI;alignment: center;text-align: center">梦境之成，智能而生</h1>
+</div>
+<div class="welcome">
+    <h1 style="text-align: center;color: black;font-family: 华光楷体_CNKI;font-style: normal;font-size:50px">欢迎进入图片编辑网站</h1>
+</div>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!doctype html>
+<head lang="en" xmlns="http://www.w3.org/1999/html">
+<title>Upload new File</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .first {
+            width: 50%;
+            float:left;
+            height: 100%;
+            border:0;
+        }
+        .second {
+            width: 50%;
+            float:left;
+            height: 100%;
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+{% if info %}
+<div class="alert alert-info alert-dismissible">
+    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    <strong>{{info}}</strong>
+</div>
+{% endif %}
+<div class="first">
+    <h1 style="font-family: 仿宋;font-size: 60px">上传图片</h1>
+    {% if info %}
+    {% if error %}
+    <img id="image" src="{{ url_for('static',filename='img_in/'+'in.jpg',_t=val1) }}" width=100% height=auto alt=" "/>
+    {% endif %}
+    {% endif %}
+    <br>
+    <form method=post enctype=multipart/form-data name="upload">
+    <input type=file name=file value="upload">
+    <input type="submit" name="button" value="上传图片">
+    <br>
+        <br>
+        <h3>表情</h3>
+    <input type="radio" name="kind" value="angry">生气
+    <input type="radio" name="kind" value="surprised">惊讶
+    <br>
+        <br>
+        <h3>发型</h3>
+    <input type="radio" name="kind" value="bowlcut">Bowlcut
+    <input type="radio" name="kind" value="curly hair">卷发
+    <br>
+     <input type="radio" name="kind" value="purple hair">紫发
+    <input type="radio" name="kind" value="afro">爆炸头
+    <br>
+        <br>
+        <h3>人物仿妆</h3>
+    <input type="radio" name="kind" value="trump">Trump
+        <input type="radio" name="kind" value="Taylor Swift">Taylor Swift
+        <br>
+        <input type="radio" name="kind" value="Jhonny Depp">Jhonny Depp
+        <input type="radio" name="kind" value="Beyonce">Beyonce
+        <br>
+        <input type="radio" name="kind" value="Mark Zuckerberg">Zukerberg
+        <input type="radio" name="kind" value="Hilary Clinton">Hilary Clinton
+        <br>
+    <input type="submit" name="button" value="运行">
+    </form>
+</div>
+<div class="second"><h1 style="font-family: 仿宋;font-size: 60px">展示结果</h1>
+{% if second %}
+    <img id="image_out" src="{{ url_for('static',filename='img_out/inference_results'+'00000.jpg',_t=val2) }}" width=100% height=auto alt=" "/>
+{% endif %}
+</div>
+</body>
+
+
