@@ -1,12 +1,22 @@
-# WebProjectOfStyleClip
-A WebProject Of StyleClip
-# 这是一个基于StyleClip代码所建设的一个网页项目。
+# Web page project based on StyleClip
 
-## 该仓库上传了网页前端和后端所用的代码，但是运行时的预训练模型未上传。运行该项目代码时，需要先在下方的链接处下载预训练的模型。
+### Environment
 
-#### 特定编辑效果的预训练模型
+To run the code,you can run the following commands to download the required packages
 
-| 预训练模型文件名  | 下载链接                                                     |
+```
+conda install --yes -c pytorch pytorch=1.7.1 torchvision
+pip install ftfy regex tqdm gdown flask onnx onnxruntime
+pip install dlib==19.6.1
+```
+
+### Pre-trained model 
+
+The repository uploaded the code used by the front and back end of the web page, but the pre-trained model at runtime was not uploaded. When you run the project code, you need to download the pre-trained model at the link below.
+
+##### Pre-trained models for specific editing effects
+
+| File name         | Download link                                                |
 | ----------------- | ------------------------------------------------------------ |
 | angry.pt          | https://drive.google.com/uc?id=1g82HEH0jFDrcbCtn3M22gesWKfzWV_ma |
 | surprised.pt      | https://drive.google.com/uc?id=1F-mPrhO-UeWrV1QYMZck63R43aLtPChI |
@@ -21,13 +31,17 @@ A WebProject Of StyleClip
 | zuckerberg.pt     | https://drive.google.com/uc?id=1NjDcMUL8G-pO3i_9N6EPpQNXeMc3Ar1r |
 | afro.pt           | https://drive.google.com/uc?id=1i5vAqo4z0I-Yon3FNft_YZOq7ClWayQJ |
 
-*注：上方模型下载后放在Project/notebook/mapper/pretrained目录下*
+*Note: The above model should be downloaded and placed in the Project/notebook/mapper/pretrained*
 
-#### 编码及生成的预训练模型
+##### Pre-trained models for encoding and generate
 
-| 预训练模型文件名           | 下载链接                                                     |
+| File name                  | Download link                                                |
 | -------------------------- | ------------------------------------------------------------ |
 | e4e_ffhq_encode.pt         | https://drive.google.com/file/d/1cUv_reLE6k3604or78EranS7XzuVMWeO/view?usp=sharing |
 | stylegan2-ffhq-config-f.pt | https://drive.google.com/file/d/1EM87UquaoQmk17Q8d5kYIAHqu0dkYqdT/view?usp=sharing |
 
-*注：上方模型下载后放在Project/pretrained_models目录下*
+*Note: The above model should be downloaded and placed in the Project/pretrained_models*
+
+### Code
+
+**Run the start.py to start the web**
