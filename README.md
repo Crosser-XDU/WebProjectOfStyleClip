@@ -50,7 +50,6 @@ The repository uploaded the code used by the front and back end of the web page,
 python start.py
 ```
 
-**Run the start.py to start the web**
 **The code of the project is based on the following code on github.**
 
 - [orpatashnik/StyleCLIP: Official Implementation for "StyleCLIP: Text-Driven Manipulation of StyleGAN Imagery" (ICCV 2021 Oral) (github.com)](https://github.com/orpatashnik/StyleCLIP)
