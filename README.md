@@ -1,11 +1,11 @@
 # Web page project based on StyleClip
 ### Web
 
-The Web page project has been deployed on www.wqyai.cn , welcome to go to my website to enjoy the fun of editing pictures.:laughing:
+The Web page project is available at www.wqyai.cn. Welcome to visit my website to enjoy the fun of editing pictures.:laughing:
 
 ### Environment
 
-To run the code,you can run the following commands to download the required packages
+To run the code, you can run the following commands to download the required packages.
 
 ```
 conda install --yes -c pytorch pytorch=1.7.1 torchvision
@@ -17,7 +17,7 @@ pip install dlib==19.6.1
 
 The repository uploaded the code used by the front and back end of the web page, but the pre-trained model at runtime was not uploaded. When you run the project code, you need to download the pre-trained model at the link below.
 
-##### Pre-trained models for specific editing effects
+##### Pre-trained models for specific editing effects:
 
 | File name         | Download link                                                |
 | ----------------- | ------------------------------------------------------------ |
@@ -34,17 +34,19 @@ The repository uploaded the code used by the front and back end of the web page,
 | zuckerberg.pt     | https://drive.google.com/uc?id=1NjDcMUL8G-pO3i_9N6EPpQNXeMc3Ar1r |
 | afro.pt           | https://drive.google.com/uc?id=1i5vAqo4z0I-Yon3FNft_YZOq7ClWayQJ |
 
-*Note: The above model should be downloaded and placed in the Project/notebook/mapper/pretrained*
+*Note: The above model should be downloaded and placed in the `Project/notebook/mapper/pretrained`*.
 
-##### Pre-trained models for encoding and generate
+##### Pre-trained models for encoder and generator:
 
 | File name                  | Download link                                                |
 | -------------------------- | ------------------------------------------------------------ |
 | e4e_ffhq_encode.pt         | https://drive.google.com/file/d/1cUv_reLE6k3604or78EranS7XzuVMWeO/view?usp=sharing |
 | stylegan2-ffhq-config-f.pt | https://drive.google.com/file/d/1EM87UquaoQmk17Q8d5kYIAHqu0dkYqdT/view?usp=sharing |
 
-*Note: The above model should be downloaded and placed in the Project/pretrained_models*
+*Note: The above model should be downloaded and placed in the `Project/pretrained_models`*.
 
-### Code
+### Run the code
 
-**Run the start.py to start the web**
+```python
+python start.py
+```
