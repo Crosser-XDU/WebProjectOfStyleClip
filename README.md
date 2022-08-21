@@ -46,7 +46,3 @@ The repository uploaded the code used by the front and back end of the web page,
 *Note: The above model should be downloaded and placed in the `Project/pretrained_models`*.
 
 ### Run the code
-
-```python
-python start.py
-```
