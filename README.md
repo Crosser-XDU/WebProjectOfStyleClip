@@ -48,3 +48,20 @@ The repository uploaded the code used by the front and back end of the web page,
 ### Code
 
 **Run the start.py to start the web**
+**The code of the project is based on the following code on github.**
+
+- [orpatashnik/StyleCLIP: Official Implementation for "StyleCLIP: Text-Driven Manipulation of StyleGAN Imagery" (ICCV 2021 Oral) (github.com)](https://github.com/orpatashnik/StyleCLIP)
+
+- [pbaylies/stylegan-encoder: StyleGAN Encoder - converts real images to latent space (github.com)](https://github.com/pbaylies/stylegan-encoder)
+
+- [omertov/encoder4editing: Official implementation of "Designing an Encoder for StyleGAN Image Manipulation" (SIGGRAPH 2021) https://arxiv.org/abs/2102.02766 (github.com)](https://github.com/omertov/encoder4editing)
+
+  
+
+### Examples
+
+Here are some good examples of using the Web page.
+
+![](\static\img\Snipaste_2022-08-21_21-32-17.png)
+
+![](\static\img\Snipaste_2022-08-21_21-34-26.png)
