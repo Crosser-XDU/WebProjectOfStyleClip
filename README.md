@@ -62,6 +62,6 @@ The repository uploaded the code used by the front and back end of the web page,
 
 Here are some good examples of using the Web page.
 
-![](\static\img\Snipaste_2022-08-21_21-32-17.png)
+![](./static/img/Snipaste_2022-08-21_21-32-17.png)
 
-![](\static\img\Snipaste_2022-08-21_21-34-26.png)
+![](./static/img/Snipaste_2022-08-21_21-34-26.png)
