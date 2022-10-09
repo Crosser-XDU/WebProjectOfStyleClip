@@ -9,3 +9,4 @@ def final(type):
 
 if __name__=="__main__":
     final('afro')
+print(hello)
