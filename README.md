@@ -1,7 +1,7 @@
 # Web page project based on StyleClip
 ### Web
 
-The Web page project is available at www.wqyai.cn. (The web now is currently inactive because of the cloud server) Welcome to visit my website to enjoy the fun of editing pictures.:laughing:
+The Web page project is available at www.wqyai.cn. (**The web now is currently inactive because of the cloud server**) Welcome to visit my website to enjoy the fun of editing pictures.:laughing:
 
 ### Environment
 
