@@ -1,5 +1,5 @@
 # Web page project based on StyleClip
-<p><img src="https://huggingface.co/spaces/QiyuWu/DPO_Internlm2_1_8B/blob/main/MyVideo_1.gif" style="padding-bottom: 10px"></p>
+<p><img src="https://github.com/Crosser-XDU/WebProjectOfStyleClip/blob/master/Video.gif" style="padding-bottom: 10px"></p>
 
 ### Web
 
