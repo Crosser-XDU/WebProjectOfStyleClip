@@ -1,5 +1,6 @@
 # Web page project based on StyleClip
-<img src="https://huggingface.co/spaces/QiyuWu/DPO_Internlm2_1_8B/blob/main/MyVideo_1.gif" style="padding-bottom: 10px">
+<p><img src="https://huggingface.co/spaces/QiyuWu/DPO_Internlm2_1_8B/blob/main/MyVideo_1.gif" style="padding-bottom: 10px"></p>
+
 ### Web
 
 The Web page project is available at www.wqyai.site. Welcome to visit my website to enjoy the fun of editing pictures. :laughing:
