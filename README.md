@@ -1,5 +1,4 @@
 # Web page project based on StyleClip
-<p><img src="https://github.com/Crosser-XDU/WebProjectOfStyleClip/blob/master/Video.gif" style="padding-bottom: 10px"></p>
 
 ### Web
 
