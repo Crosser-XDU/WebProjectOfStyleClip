@@ -2,7 +2,7 @@
 
 ### Web
 
-The Web page project is available at ~~https://wqyai.site/~~.(Due to expiration of the web server, the website is now not used, please move to https://huggingface.co/spaces/QiyuWu/StyleClip_Demo for a try) Welcome to visit my website to enjoy the fun of editing pictures. :laughing:
+The Web page project is available at ~~https://wqyai.site/~~. **(Due to expiration of the web server, the website is now not used, please move to https://huggingface.co/spaces/QiyuWu/StyleClip_Demo for a try)** Welcome to visit my website to enjoy the fun of editing pictures. :laughing:
 
 ### Environment
 
